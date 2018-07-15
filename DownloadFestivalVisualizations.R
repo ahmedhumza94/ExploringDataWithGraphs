@@ -28,3 +28,7 @@ festData$day1[nrow(festData)] <- 2.02
 #Create new boxplot with corrected outlier
 genBoxplotCor <- ggplot(festData, aes(gender,day1))
 genBoxplotCor + geom_boxplot() + labs(x="Gender",y="Day 1 Scores")
+
+#Density Plot of Day 1 Hygiene Scores
+denPlot <- ggplot(festData,aes(day1))
+denPlot + geom_density() + labs(x="Day 1 Hygiene Scores")
