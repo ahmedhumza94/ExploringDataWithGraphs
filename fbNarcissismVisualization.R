@@ -11,3 +11,9 @@ library(ggplot2)
 #Load Data file
 fbData <- read.delim("FacebookNarcissism.dat",header=TRUE)
 
+#View dataframe
+View(fbData)
+
+#Plot Relationship between NPQC_R_Total and Rating
+graph <- ggplot(fbData,aes(NPQC_R_Total,Rating))
+graph + geom_point()
