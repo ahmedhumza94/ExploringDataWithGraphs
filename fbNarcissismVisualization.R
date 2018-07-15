@@ -16,4 +16,5 @@ View(fbData)
 
 #Plot Relationship between NPQC_R_Total and Rating
 graph <- ggplot(fbData,aes(NPQC_R_Total,Rating))
-graph + geom_point()
+#Graph points by Rating Type
+graph + geom_point(aes(colour=Rating_Type))
