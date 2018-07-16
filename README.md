@@ -5,7 +5,7 @@ and density plots. The datasets used in these scripts are available as part of A
 companion website here: https://studysites.sagepub.com/dsur/study/articles.htm. The datasets can be found under the Chapter 4
 section.
 
-##R Dependencies
+## R Dependencies
 The available scripts are written in **R version 3.5.0**.
 
 Install ggplot2 and the reshape packages needed to run components of these scripts:
