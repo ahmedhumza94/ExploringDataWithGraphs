@@ -10,5 +10,5 @@ The available scripts are written in **R version 3.5.0**.
 
 Install ggplot2 and the reshape packages needed to run components of these scripts:
 ```
-install.packages("ggplot2","reshape)
+install.packages("ggplot2","reshape")
 ```
